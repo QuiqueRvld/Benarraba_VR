@@ -5151,7 +5151,7 @@ GameObject:
   - component: {fileID: 805271898}
   - component: {fileID: 805271897}
   m_Layer: 0
-  m_Name: Shoot (1)
+  m_Name: ShootSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
