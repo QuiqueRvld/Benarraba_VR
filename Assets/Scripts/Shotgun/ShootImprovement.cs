@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class ShootImprovement : MonoBehaviour
 {
@@ -42,11 +42,12 @@ public class ShootImprovement : MonoBehaviour
                 //Destroy(hit.collider.gameObject);
 
                 GameObject jarronRoto = Instantiate(destroyedVersion, hit.collider.transform.position, hit.collider.transform.rotation);
-                Destroy(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
                 Destroy(gameObject);
                 Destroy(jarronRoto, 1f);
-                
 
+                if (LevelManager.Instance.ShotgunActive)
+                    LevelManager.Instance.Points += 10;
 
             }
         }
@@ -73,6 +74,6 @@ public class ShootImprovement : MonoBehaviour
         yield return new WaitForSeconds(2);
         Destroy(gameObject);
         yield return null;
-        
+
     }
 }
