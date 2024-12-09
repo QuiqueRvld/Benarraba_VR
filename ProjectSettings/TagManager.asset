@@ -8,6 +8,8 @@ TagManager:
   - Building
   - Bullet
   - Target
+  - Canasta
+  - BasketBall
   layers:
   - Default
   - TransparentFX
