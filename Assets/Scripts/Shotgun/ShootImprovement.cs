@@ -7,6 +7,7 @@ public class ShootImprovement : MonoBehaviour
     public Vector3 currentVelocity;
 
     public GameObject destroyedVersion;
+    public GameObject particlePrefab;
 
     Vector3 newPosition = Vector3.zero;
     Vector3 newVelocity = Vector3.zero;
@@ -42,12 +43,14 @@ public class ShootImprovement : MonoBehaviour
                 //Destroy(hit.collider.gameObject);
 
                 GameObject jarronRoto = Instantiate(destroyedVersion, hit.collider.transform.position, hit.collider.transform.rotation);
+                //Instantiate(particlePrefab, hit.collider.transform.position, new Quaternion(0,-100,0,0));
                 hit.collider.gameObject.SetActive(false);
                 Destroy(gameObject);
                 Destroy(jarronRoto, 1f);
 
+
                 if (LevelManager.Instance.ShotgunActive)
-                    LevelManager.Instance.Points += 10;
+                    LevelManager.Instance.Points += 100;
 
             }
         }

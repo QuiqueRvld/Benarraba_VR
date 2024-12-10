@@ -215,3 +215,5 @@ MonoBehaviour:
   currentVelocity: {x: 0, y: 0, z: 0}
   destroyedVersion: {fileID: 5331589623113726922, guid: 0d1961d14c4f133449d5272899063626,
     type: 3}
+  particlePrefab: {fileID: 827419068699064025, guid: 6e0535b1b76e35f4e8070adc2a0ea640,
+    type: 3}

@@ -20,6 +20,7 @@ public class ActiveMinigame : MonoBehaviour
 
 
         LevelManager.Instance.InternalLevelTime = LevelManager.Instance.ShotgunLevelTime;
+        LevelManager.Instance.Points = 0;
         LevelManager.Instance.IsActiveMinigame = true;
         LevelManager.Instance.ShotgunActive = true;
     }
