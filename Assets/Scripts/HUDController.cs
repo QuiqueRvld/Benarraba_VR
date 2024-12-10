@@ -10,6 +10,7 @@ public class HUDController : MonoBehaviour
     //Components
     [Header("HUD Text")]
     [SerializeField] private TMP_Text timeShotgunText;
+    [SerializeField] private TMP_Text timeShotgunPoints;
 
 
     private void Update()
@@ -22,6 +23,7 @@ public class HUDController : MonoBehaviour
     private void OnGUI()
     {
         timeShotgunText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
+        timeShotgunPoints.text = LevelManager.Instance.Points.ToString("0000");
     }
 
 }
