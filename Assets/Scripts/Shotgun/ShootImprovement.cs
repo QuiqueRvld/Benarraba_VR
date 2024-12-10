@@ -45,6 +45,7 @@ public class ShootImprovement : MonoBehaviour
                 GameObject jarronRoto = Instantiate(destroyedVersion, hit.collider.transform.position, hit.collider.transform.rotation);
                 //Instantiate(particlePrefab, hit.collider.transform.position, new Quaternion(0,-100,0,0));
                 hit.collider.gameObject.SetActive(false);
+                jarronRoto.GetComponentInChildren<AudioSource>().Play();
                 Destroy(gameObject);
                 Destroy(jarronRoto, 1f);
 

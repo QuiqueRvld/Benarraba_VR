@@ -15,6 +15,7 @@ public class BasketController : MonoBehaviour
             if (scoreBasket)
             {
                 GameObject tempFlash = Instantiate(scoreBasket, scoreBasketSpawn.position, scoreBasketSpawn.rotation);
+                GetComponentInChildren<AudioSource>().Play();
                 Destroy(tempFlash, 2f);
             }
         }

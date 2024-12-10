@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField][Tooltip("Shotgun Level Time in Seconds")] private int shotgunLevelTime;
     [SerializeField][Tooltip("Shotgun Level Timer")] private GameObject shotgunLevelTimer;
     [SerializeField][Tooltip("Shotgun Button")] private GameObject buttonShotgun;
+    [SerializeField][Tooltip("Audio TimeOut")] private AudioSource audioTimeOut;
+    [SerializeField][Tooltip("Jars")] private GameObject[] jars;
     private bool shotgunActive;
 
     //[Header("Basket")]
@@ -84,6 +86,13 @@ public class LevelManager : MonoBehaviour
             //buttonBasket.SetActive(true);
             //buttonTurron.SetActive(true);
             shotgunActive = false;
+            audioTimeOut.Play();
+
+            foreach(GameObject jar in jars)
+            {
+                jar.GetComponent<JarronController>().CancelInvoke();
+                jar.SetActive(false);
+            }
         }
     }
 
