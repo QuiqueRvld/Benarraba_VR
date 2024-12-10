@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 61003de8744a5284994edca884699042,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.120097
+      value: -0.832
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61003de8744a5284994edca884699042,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0018587069
+      value: 0.015
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61003de8744a5284994edca884699042,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.781965
+      value: 10.927
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61003de8744a5284994edca884699042,
         type: 3}
@@ -132,7 +132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyedVersion: {fileID: 5331589623113726922, guid: 0d1961d14c4f133449d5272899063626,
     type: 3}
-  hit: {fileID: 0}
 --- !u!65 &158252415549034426
 BoxCollider:
   m_ObjectHideFlags: 0
