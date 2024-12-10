@@ -9,7 +9,8 @@ public class BasketController : MonoBehaviour
     {
         if (other.CompareTag("BasketBall"))
         {
-            Destroy(other.gameObject);
+
+            other.gameObject.SetActive(false);
 
             if (scoreBasket)
             {

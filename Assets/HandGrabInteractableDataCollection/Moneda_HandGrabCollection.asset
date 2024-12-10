@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c252863d3264814b8c34a1c4a2e762d, type: 3}
+  m_Name: Moneda_HandGrabCollection
+  m_EditorClassIdentifier: 
+  _interactablesData:
+  - poses:
+    - gripPose:
+        position: {x: -1.3294913, y: -97.619865, z: -1.7918711}
+        rotation: {x: -0.5862148, y: -0.620824, z: -0.16658506, w: 0.49313214}
+      handPose:
+        _handedness: 0
+        _fingersFreedom: 0200000002000000010000000100000000000000
+        _jointRotations:
+        - {x: 0.32606003, y: -0.45964655, z: 0.100653596, w: 0.8199256}
+        - {x: 0.22169699, y: 0.032295696, z: -0.110549875, w: 0.9682899}
+        - {x: -0.07628976, y: 0.028332785, z: -0.4230697, w: 0.9024352}
+        - {x: 0.062130116, y: -0.015117392, z: -0.46458712, w: 0.8832159}
+        - {x: 0.019995011, y: 0.054187845, z: -0.525801, w: 0.8486442}
+        - {x: -0.020389833, y: -0.015411839, z: -0.7730092, w: 0.63387966}
+        - {x: -0.01655903, y: 0.013427053, z: -0.52777976, w: 0.8491137}
+        - {x: -0.060722373, y: 0.079056, z: -0.59174556, w: 0.7999375}
+        - {x: -0.012237791, y: -0.0056149103, z: -0.7539995, w: 0.6567367}
+        - {x: -0.091795586, y: -0.024564616, z: -0.57286084, w: 0.8141254}
+        - {x: -0.11654564, y: 0.07624749, z: -0.6240255, w: 0.7688925}
+        - {x: -0.04119483, y: -0.022817336, z: -0.7405878, w: 0.6703077}
+        - {x: -0.030991174, y: -0.026554927, z: -0.5798632, w: 0.8136913}
+        - {x: -0.20703597, y: 0.14034288, z: -0.018311793, w: 0.96804166}
+        - {x: 0.053438004, y: 0.043212727, z: -0.6294501, w: 0.77399564}
+        - {x: -0.0894519, y: 0.002167374, z: -0.70915914, w: 0.6993471}
+        - {x: 0.0024989694, y: -0.040727004, z: -0.548059, w: 0.8354437}
+      scale: 22.963003
+    grabType: 3
+    handAlignment: 1
+    scoringModifier:
+      _positionRotationWeight: 0.8
+    pinchGrabRules:
+      _thumbRequirement: 1
+      _indexRequirement: 1
+      _middleRequirement: 1
+      _ringRequirement: 0
+      _pinkyRequirement: 0
+      _unselectMode: 0
+    palmGrabRules:
+      _thumbRequirement: 1
+      _indexRequirement: 2
+      _middleRequirement: 2
+      _ringRequirement: 2
+      _pinkyRequirement: 1
+      _unselectMode: 0

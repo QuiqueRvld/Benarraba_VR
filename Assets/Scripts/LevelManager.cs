@@ -15,17 +15,17 @@ public class LevelManager : MonoBehaviour
     [SerializeField][Tooltip("Shotgun Button")] private GameObject buttonShotgun;
     private bool shotgunActive;
 
-    [Header("Basket")]
-    [SerializeField][Tooltip("Basket Level Time in Seconds")] private int basketLevelTime;
-    [SerializeField][Tooltip("Basket Level Timer")] private GameObject basketLevelTimer;
-    [SerializeField][Tooltip("Basket Button")] private GameObject buttonBasket;
-    private bool basketActive;
+    //[Header("Basket")]
+    //[SerializeField][Tooltip("Basket Level Time in Seconds")] private int basketLevelTime;
+    //[SerializeField][Tooltip("Basket Level Timer")] private GameObject basketLevelTimer;
+    //[SerializeField][Tooltip("Basket Button")] private GameObject buttonBasket;
+    //private bool basketActive;
 
-    [Header("Turron")]
-    [SerializeField][Tooltip("Turron Level Time in Seconds")] private int turronLevelTime;
-    [SerializeField][Tooltip("Turron Level Timer")] private GameObject turronLevelTimer;
-    [SerializeField][Tooltip("Turron Button")] private GameObject buttonTurron;
-    private bool turronActive;
+    //[Header("Turron")]
+    //[SerializeField][Tooltip("Turron Level Time in Seconds")] private int turronLevelTime;
+    //[SerializeField][Tooltip("Turron Level Timer")] private GameObject turronLevelTimer;
+    //[SerializeField][Tooltip("Turron Button")] private GameObject buttonTurron;
+    //private bool turronActive;
 
 
     private float internalLevelTime;
@@ -44,8 +44,8 @@ public class LevelManager : MonoBehaviour
 
     public bool IsActiveMinigame { get => isActiveMinigame; set => isActiveMinigame = value; }
     public bool ShotgunActive { get => shotgunActive; set => shotgunActive = value; }
-    public bool BasketActive { get => basketActive; set => basketActive = value; }
-    public bool TurronActive { get => turronActive; set => turronActive = value; }
+    //public bool BasketActive { get => basketActive; set => basketActive = value; }
+    //public bool TurronActive { get => turronActive; set => turronActive = value; }
 
     private void Awake()
     {

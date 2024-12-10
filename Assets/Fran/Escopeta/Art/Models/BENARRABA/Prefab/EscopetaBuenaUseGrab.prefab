@@ -1256,7 +1256,7 @@ GameObject:
   - component: {fileID: 3182659900557166048}
   - component: {fileID: 3987561254627258911}
   m_Layer: 0
-  m_Name: EscopetaBuenaUseGrab 1
+  m_Name: EscopetaBuenaUseGrab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1382,15 +1382,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6011711159767854681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11369e3f191adfb49889809d860ba0a6, type: 3}
+  m_Script: {fileID: 11500000, guid: f115b43d3df74ba40ad8a4c51c2e9b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletObj: {fileID: 4330913723899326572, guid: 11f7247f5ed390b41a9a8dd1290fc8ef, type: 3}
+  bulletObj: {fileID: 6804990658058999119, guid: 65c9f6563c561ee4e8905d1e6a32548b,
+    type: 3}
   bulletSpawn: {fileID: 677831485305966425}
-  muzzleFlashPrefab: {fileID: 1782395880954752, guid: 3dd9cf2e209c504448f1c4c6835675cf, type: 3}
+  muzzleFlashPrefab: {fileID: 827419068699064025, guid: 88f71adf40f03d845b0fc3ee2b0ce6bd,
+    type: 3}
   clip1: {fileID: 2460798210113038985, guid: 7cdf38956a3d06a46ac3fcb51018757b, type: 3}
   bangSound: {fileID: 628251475053274850}
-  casingPrefab: {fileID: 4528022377174402142, guid: a072e95d689e9c74db98888d85d5da25, type: 3}
+  casingPrefab: {fileID: 592884873794809629, guid: 3b515c8aec45bf440959cfadccfee429,
+    type: 3}
   casingExitLocation: {fileID: 2306509439640945525}
   destroyTimer: 2
   ejectPower: 150
