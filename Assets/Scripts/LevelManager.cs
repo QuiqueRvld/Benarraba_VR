@@ -15,6 +15,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField][Tooltip("Shotgun Button")] private GameObject buttonShotgun;
     [SerializeField][Tooltip("Audio TimeOut")] private AudioSource audioTimeOut;
     [SerializeField][Tooltip("Jars")] private GameObject[] jars;
+    [SerializeField][Tooltip("Jars")] private GameObject npcs;
     private bool shotgunActive;
 
     //[Header("Basket")]
@@ -93,6 +94,9 @@ public class LevelManager : MonoBehaviour
                 jar.GetComponent<JarronController>().CancelInvoke();
                 jar.SetActive(false);
             }
+
+            npcs.SetActive(false);
+            
         }
     }
 

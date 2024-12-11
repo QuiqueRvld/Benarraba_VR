@@ -7,7 +7,6 @@ public class ShootImprovement : MonoBehaviour
     public Vector3 currentVelocity;
 
     public GameObject destroyedVersion;
-    public GameObject particlePrefab;
 
     Vector3 newPosition = Vector3.zero;
     Vector3 newVelocity = Vector3.zero;
