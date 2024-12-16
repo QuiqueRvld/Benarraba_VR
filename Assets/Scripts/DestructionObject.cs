@@ -4,7 +4,7 @@ public class DestructionObject : MonoBehaviour
 {
     public GameObject destroyedVersion;
     
-    private void OnMouse()
+    private void OnMouseUp()
     {
        
         Instantiate (destroyedVersion, transform.position, transform.rotation);
