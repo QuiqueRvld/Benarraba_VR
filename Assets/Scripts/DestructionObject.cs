@@ -3,7 +3,7 @@ using UnityEngine;
 public class DestructionObject : MonoBehaviour
 {
     public GameObject destroyedVersion;
-    
+
     private void OnMouseDown()
     {
        
